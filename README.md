@@ -241,7 +241,7 @@ Notes:
 Take the Unix and BEDtools commands you ran interactively (Steps 4–6) and place them into the SLURM scaffold:
 `SLURM_scripting/BED_overlap.sh`
 
-- Open the script **locally** in VS Code and fill the TODO lines (paths, email, your commands, etc., **hint:** `ctl + f` "TODO").
+- Open the script **locally** in VS Code and fill the TODO lines (paths, email, your commands, etc., **hint:** `Ctl+f` (or `Cmd+f)` "TODO").
 - Keep it simple: sort inputs, run your Unix overlap attempt, run `bedtools intersect`, and write outputs to the `output/` folder.
 - **Save** your changes to the BED_overlap.sh script!
 - Then, **move** your modified BED_overlap.sh script to the HPC somehow
